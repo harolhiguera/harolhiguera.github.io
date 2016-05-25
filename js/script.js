@@ -199,6 +199,12 @@ xmlhttp.send();
 
 }
 
+function send_mail_temp(){
+
+
+
+}
+
 //This code allows visual efect for the images and also a random effect
 
 $(document).ready(function() {
