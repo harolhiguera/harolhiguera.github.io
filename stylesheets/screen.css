@@ -673,7 +673,7 @@ body {
     text-decoration: none;
     text-align: center; }
 
-#element_1, #element_2, #element_3, #element_4, #element_5, #element_6 {
+#element_1, #element_2, #element_3, #element_4, #element_5, #element_6, #element_7, #element_8 {
   background-color: #fff;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -710,14 +710,17 @@ body {
   text-align: center; }
 
 .mobile_content, .tablet_content, .web_content, .electro_content {
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; }
 
-.mobile_imgs_1, .mobile_imgs_2 {
+.mobile_imgs_1, .mobile_imgs_2, .mobile_imgs_7, .mobile_imgs_8 {
   float: left;
   position: relative;
   width: 250px;
   height: 400px; }
-  .mobile_imgs_1 img, .mobile_imgs_2 img {
+  .mobile_imgs_1 img, .mobile_imgs_2 img, .mobile_imgs_7 img, .mobile_imgs_8 img {
     position: absolute;
     top: 0;
     bottom: 0;

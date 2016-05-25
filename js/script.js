@@ -3,6 +3,7 @@
 $(document).ready(function() {
     
     $('#arrow_01').click(function() {
+
         $('#round').animate({
 			marginTop : "-=60px",
 			opacity : "-=0.4",
@@ -27,10 +28,46 @@ $(document).ready(function() {
     });
 });
 
+
+
 //CODE FOR THE SLIDERS
 
 
-;$(document).ready(function() {
+$(document).ready(function() {
+	
+	//Hide all the images except the first one
+    $(".mobile_imgs_8 img:gt(0)").hide();
+	
+    setInterval(function() {
+        //get the current image - It´s the visible one
+		var current = $('.mobile_imgs_8 img:visible');
+		
+		//Get the immediate next image after the current if exist 
+		//Otherwise find the first one
+        var next = current.next().length ? current.next() : $('.mobile_imgs_8 img:eq(0)');
+        current.fadeOut();
+        next.fadeIn();
+    }, 3000);
+
+});
+$(document).ready(function() {
+	
+	//Hide all the images except the first one
+    $(".mobile_imgs_7 img:gt(0)").hide();
+	
+    setInterval(function() {
+        //get the current image - It´s the visible one
+		var current = $('.mobile_imgs_7 img:visible');
+		
+		//Get the immediate next image after the current if exist 
+		//Otherwise find the first one
+        var next = current.next().length ? current.next() : $('.mobile_imgs_7 img:eq(0)');
+        current.fadeOut();
+        next.fadeIn();
+    }, 3000);
+
+});
+$(document).ready(function() {
 	
 	//Hide all the images except the first one
     $(".mobile_imgs_1 img:gt(0)").hide();
