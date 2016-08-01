@@ -658,6 +658,7 @@ body {
         height: 2px;
         background: white; }
       #footer #footer_table .item2 #download_2 {
+        pading-left: 15px;
         font-size: 0.9em;
         text-decoration: none;
         text-transform: uppercase;
