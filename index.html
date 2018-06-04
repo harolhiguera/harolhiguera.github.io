@@ -1,571 +1,559 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-      <meta charset="utf-8" />
-      <title>Harol Higuera</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/screen.css"/>
+  <title>Harol Higuera</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
 </head>
 
 <body>
-	<div id="start_screen">
-	<div id="start">
-		<div id="block_01">
-			<div  id="round">
-				<img id="stamp" src="images/h.png"/>
-			</div>
-			<div id="intro">
-				<p id="text_1">harol andres higuera nitola</p>
-				<div id="text_2">
-					<div>M</div>
-					<div>o</div>
-					<div>b</div>
-					<div>i</div>
-					<div>l</div>
-					<div>e</div>
-					<div>/</div>
-					<div>W</div>
-					<div>e</div>
-					<div>b</div>
-					<div>&nbsp;</div>
-					<div>D</div>
-					<div>e</div>
-					<div>v</div>
-					<div>e</div>
-					<div>l</div>
-					<div>o</div>
-					<div>p</div>
-					<div>e</div>
-					<div>r</div>
-				</div>
-							
-			</div>
-		</div>
-		<img id="arrow_01" src="images/arrow_01.png"/>
-		<div id="paragraph_01">
-			<p>"I am an Electronic Engineer, creative, committed, entrepreneur and with a huge passion for technology, 
-			I’ve been working as a researcher, developer and designer when there is not one nearby."</p>
-		</div> 
-	</div>
-	</div>
-	
+
+
+<!--   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toogle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="active" href="#" data-toggle="collapse" data-target="#navbar-collapse.show">Home</a></li>
+          <li><a href="#section-portfolio" data-toggle="collapse" data-target="#navbar-collapse.show">Portfolio</a></li>
+          <li><a href="#" data-toggle="collapse" data-target="#navbar-collapse.show">Experience</a></li>
+          <li><a href="#" data-toggle="collapse" data-target="#navbar-collapse.show">Skills</a></li>
+          <li><a href="#" data-toggle="collapse" data-target="#navbar-collapse.show">Contact</a></li>
+        </ul>
+      </div>
+
+    </div> -->
+  </nav>
+
+<div id="home">
+  <div class="landing-text">
+    <h1>Hi, I'm Harol</h1>
+    <h3>I design and build mobile app solutions</h3>
+    <a href="#section-portfolio" class="btn btn-warning btn-lg btn-portafolio-link">Portfolio</a>
+  </div>
+</div>
 
 
 
-	<div id="myama">
-		<div id="portfolio">
-			<h1 id="portfolio_title">portfolio</h1>
-			<div id="jobs_container">
-				<div class="jobs">
-					<div class="back">
-						<img src="images/mobile.png" alt="img13"/>
-						<p class="type">Mobile</p>
-						<p class="name" id="job_8">BLink</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/mobile.png"  alt="img13"/>
-						<p class="type">Mobile</p>
-						<p class="name" id="job_7">IFishComps</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/mobile.png" alt="img13"/>
-						<p class="type">Mobile</p>
-						<p class="name" id="job_6">UTS Biensoft</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/mobile.png"  alt="img13"/>
-						<p class="type">Mobile</p>
-						<p class="name" id="job_5">Enermetric</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/mobile.png" alt="img13"/>
-						<p class="type">Mobile</p>
-						<p class="name" id="job_4">Robotapp</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/web.png"  alt="img13"/>
-						<p class="type">Web</p>
-						<p class="name" id="job_3">The List</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/web.png" alt="img13"/>
-						<p class="type">Web</p>
-						<p class="name" id="job_2">Millenium Electroingenieria</p>
-					</div>
-				</div>
-				<div class="jobs">
-					<div class="back">
-						<img src="images/electronics.png" alt="img13"/>
-						<p class="type">Electronics</p>
-						<p class="name" id="job_1">Robotapp</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="pictures">
-			<h1 id="pictures_title">a quick look <br>into my life</h1>	
-			<div id="imageslist">
-				<div class="image">
-					<img id="image_1"  class="color"/>
-				</div>
-				<div class="image">
-					<img id="image_2"  class="color"/>
-				</div>
-				<div class="image">
-					<img id="image_3"  class="color"/>
-				</div>
-				<div class="image">
-					<img id="image_4"  class="color"/>
-				</div>
-				<div class="image">
-					<img id="image_5"  class="color"/>
-				</div>
-				<div class="image">
-					<img id="image_6"  class="color"/>
-				</div>
-			</div>
-		</div>
-	</div>
-	
 
-	<div id="skills">
-		<h1 id="skills_title">skills</h1>
-		<div id="skills_table">	
-  				<div class="item">
-					<div id="item_1">
-						<div class="up">
-							<img src="images/design_logo.png"  class="logo"/>
-							<p>DESIGN</p>
-							<hr class="hr_style"></hr>
-						</div>
-						<div class="down">
-							<p>photoshop<br>gimp<br>illustrator</p>
-						</div>
-					</div>
-  				</div>
-				<div class="item">
-					<div id="item_2">
-						<div class="up">
-							<img src="images/development_logo.png"  class="logo"/>
-							<p>DEVELOPMENT</p>
-							<hr class="hr_style"></hr>
-						</div>
-						<div class="down">
-							<p>Android<br>java<br>sql<br>php<br>html<br>css<br>javascript<br>jQuery<br>LESS/SASS<br>Compass</p>
-						</div>
-					</div>
-  				</div>
-				<div class="item">
-					<div id="item_3">
-						<div class="up">
-							<img src="images/gear.gif"  class="logo"/>
-							<p>ENGINEERING</p>
-							<hr class="hr_style"></hr>
-						</div>
-						<div class="down">
-							<p>control and automation<br>embebed systems<br>electronic analogue design<br>wireless communications<br>microcontrollers<br>Software:<br>&nbsp;labview<br>&nbsp;orcad<br>&nbsp;matlab<br>&nbsp;simulink<br>&nbsp;kicad</p>
-						</div>
-					</div>
-  				</div>
-		</div>
-	</div>
-	<div id="education">
-		<h1 id="education_title">education</h1>
-		<div id="education_table">
-			<div class="item">
-				<p class="name">princess college</p>
-				<a class="address" href="http://www.princescollege.com/" target="_blank">http://www.princescollege.com</a>
-				<p class="subject">English and business</p>
-				<p class="place">London, United Kingdom</p>
-				<p class="date">2008-2011</p>
-			</div><hr></hr>
-			<div class="item">
-				<p class="name">industrial university of santander (UIS)</p>
-				<a class="address" href="https://www.uis.edu.co/webUIS/en/index.html" target="_blank">https://www.uis.edu.co/webUIS/en/index.html</a>
-				<p class="subject">electronic engineering and telecommunications systems</p>
-				<p class="place">Bucaramanga, Colombia</p>
-				<p class="date">Dec 2013</p>
-			</div><hr></hr>
-			<div class="item">
-				<p class="name">radiogis, telecommunications researching group, uis</p>
-				<a class="address" href="https://www.uis.edu.co/webUIS/en/index.html" target="_blank">https://www.uis.edu.co/webUIS/en/index.html</a>
-				<p class="subject">android systems and geolocation principles, seminar course</p>
-				<p class="place">Bucaramanga, Colombia</p>
-				<p class="date">2012</p>
-			</div>
-		</div>		
-	</div>
-	<div id="employment">
-		<h1 id="employment_title">relevant Experience</h1>
-		<div id="employment_table">
+<div id="section-portfolio" class="title-default">
+  <h2>PORTFOLIO</h2>
+</div>
+<div class="subtitle-default">
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>“There is nothing more rewarding than knowing that what you build makes someone's life better.” -Harol Higuera</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-			<div class="item">
-				<p class="name">Launchpad D Pty Ltd</p>		
-				<p class="place">Sydney, Australia</p>
-				<a class="address" href="http://launchpadd.com.au/" target="_blank">http://launchpadd.com.au</a>
-				<p class="date">Oct 2015 - Present</p>
-				<p class="subject">Android Developer, non-staff</p>
-				<hr></hr>
-			</div><br>
-			<div class="item">
-				<p class="name">asahi vision</p>			
-				<p class="place">Nagoya, Aichi, Japan</p>
-				<a class="address" href="http://asahi-vision.com/" target="_blank">http://asahi-vision.com/</a>
-				<p class="date">Apr 2015 - Sep 2015</p>
-				<p class="subject">Product development engineer, In charge of control design for ophthalmic equipment, algorithms, and simulations.</p>
-				<hr></hr>
-			</div><br>
-			
-			<div class="item">
-				<p class="name">robotapp</p>				
-				<p class="place">Bucaramanga, Colombia</p>
-				
-				<p class="date">Oct 2013 - present</p>
-				<p class="subject">Entrepreneur-Co founder. Electronic analogue design and control of a Robot for educational purposes.</p>
-				<hr></hr>
-			</div><br>
-			
-			<div class="item">
-				<p class="name">temporary union "cetics", program apps.co. ministry of telecommunications</p>				
-				<p class="place">Bucaramanga, Colombia</p>
-				<a class="address" href="https://apps.co/" target="_blank">https://apps.co/</a>
-				<p class="date">Dec 2012 - Apr 2013</p>
-				<p class="subject">Lecture, Architect and solutions for Android Mobile Devices</p>
-				<hr></hr>
-			</div><br>
-			<div class="item">
-				<p class="name">Others</p>
-				<a class="address" href="files\CV_2016_06.pdf"  target="_blank">Check my resume</a>
-				<hr></hr>
-			</div>
 
-		</div>		
-	</div>
-	
-	<div id="contact">
-		<div id="capa">		
-			<h1 id="form_title">GET IN TOUTCH</h1><br>
-			<form id="form" >
-				<input id="name" placeholder="NAME" class="name" required />
-				<input id="emailaddress" placeholder="E-MAIL" class="email" type="email" required />
-    			<textarea rows="4" cols="50" id="comment" placeholder="MESSAGE" class="message" required></textarea>
-   	 		<input class="btn" type="button" onclick="send_mail_temp()" value="SEND"/>
-			</form>
-		</div>
-	</div>
-	
-	<div id="footer">
-		<div id="footer_table">	
-  			<div class="item1">
-  			   <p>Harol Higuera<br>Electronic Engineer<br>Android/Web Developer<br><br>Nagoya, Japan</p>
-  			</div>
-  			<div class="item2">
-				<div id="links">
-					<div class="contact_item">
-						<a href="https://plus.google.com/u/0/108600649404125864067/posts" target="_blank">
-							<img class="cont_up" src="images/contact_google_2.png"/>
-							<img src="images/contact_google_1.png"/>		
-						</a> 
-					</div>
-					<div class="contact_item">
-						<a href="skype:harolhiguera" target="_blank">
-							<img class="cont_up" src="images/contact_skype_2.png"/>
-							<img src="images/contact_skype_1.png"/>
-						</a>
-					</div>
-					<div class="contact_item">
-						<a href="https://twitter.com/home?status=@Haroli23" target="_blank">
-							<img class="cont_up" src="images/contact_twitter_2.png"/>
-							<img src="images/contact_twitter_1.png"/>
-						<a/>
-					</div>
-				</div>
-				<div>
-					<br><br>
-					<hr id="line_div">
-					<a href="files\CV_2016_06.pdf"  target="_blank" id="download_2">check my resume&nbsp&nbsp&nbsp&nbsp&nbsp</a>
-					<a href="files\履歴書.pdf"  target="_blank" id="download_2">履歴書</a>
-					<br>				
-				</div>
-  			</div>
-		</div>
-		<div>
-			<hr id="last_line">
-			<h1 id="last_message">Designed and developed by Harol Higuera. &nbsp;&nbsp;harolhiguera2005@gmail.com</h1>
-		</div>
-	</div>
-	<div id="element_8">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="mobile_content">
-			<div class="mobile_imgs_8">
-				<img src="images/blink1.png"/>
-				<img src="images/blink2.png" />
-				<img src="images/blink3.png" />
-				<img src="images/blink4.png" />
-				<img src="images/blink5.png" />
-				<img src="images/blink6.png" />
-				<img src="images/blink7.png" />
-				<img src="images/blink8.png" />
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">Blink</h1>
-					<a class="link" href="http://www.blinkentertainment.com.au/#" target="_blank">blinkentertainment.com.au</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Android application that connects potential clients with the venue that best suits their entertainment  requirements. It provides up to date information, images and specials on clubs, bars and pubs wishing to promote their establishment.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Android development Part</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">App Development(Java, Glide, Retrofit, RXJava, Google Api, Android Support Libraries)<br/>Tools: Android Studio, Git. </p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_7">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="mobile_content">
-			<div class="mobile_imgs_7">
-				<img src="images/ifishcomps1.png"/>
-				<img src="images/ifishcomps2.png" />
-				<img src="images/ifishcomps3.png" />
-				<img src="images/ifishcomps4.png" />
-				<img src="images/ifishcomps5.png" />
-				<img src="images/ifishcomps6.png" />
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">IFISHCOMPS</h1>
-					<a class="link" href="http://harolhiguera.github.io/" target="_blank">On development..</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Android Application aimed to fishing lovers where they can share the best catches and competitions.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Android development</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">App Development(Java, Glide, Retrofit, RXJava, Google Api, Android Support Libraries)<br/>Tools: Android Studio, Git. </p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_6">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="mobile_content">
-			<div class="mobile_imgs_1">
-				<img src="images/uts1.png"/>
-				<img src="images/uts2.png" />
-				<img src="images/uts3.png" />
-				<img src="images/uts4.png" />
-				<img src="images/uts5.png" />
-				<img src="images/uts6.png" />
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">UTS soft</h1>
-					<a class="link" href="http://www.uts.edu.co/portal/#" target="_blank">www.uts.edu.co/portal/#/</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Android application that allows students to register subjects in a Educational Institution.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Application Developer. Designer</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">App Development(Eclipse, NotePad++,SQL, Java, Php, XML, JSON)<br/> Front End Design in Illustrator.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_5">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="mobile_content">
-			<div class="mobile_imgs_2">
-				<img src="images/enermetric1.png"/>
-				<img src="images/enermetric2.png" />
-				<img src="images/enermetric3.png" />
-				<img src="images/enermetric4.png" />
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">ENERMETRIC</h1>
-					<a class="link" href="http://www.electroing.com/" target="_blank">www.electroing.com/</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Android application to register Electrical Consumption from acquisition hardware devices by Bluetooth interface.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Application Developer. Designer</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">App Development(Eclipse, NotePad++,SQL, Java, Php, XML, Illustrator,Photoshop).<br/>Hardware Systems Design.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_4">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="tablet_content">
-			<div class="tablet_imgs_1">
-				<img src="images/Robotapp0001.png"/>
-				<img src="images/Robotapp0003.png"/>
-				<img src="images/Robotapp0004.png"/>
-				<img src="images/Robotapp0005.png"/>
-				<img src="images/Robotapp0006.png"/>
-						
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">ROBOTAPP</h1>
-					<a class="link" href="#" target="_blank">On development...</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Android Application that interacts with a Robot by Wireless communication.  Aims to 5 to 7 years old children and to persuade and promote programming skills at early ages.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Application Developer. Interfaces Designer. Co-Founder</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">Development
-					(Eclipse ,Java, XML, Illustrator, Photoshop).</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_3">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="web_content">
-			<div class="web_imgs_1">
-				<img src="images/thelist1.png"/>
-				<img src="images/thelist2.png"/>
-				<img src="images/thelist3.png"/>
-				<img src="images/thelist4.png"/>
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">THE LIST</h1>
-					<a class="link" href="http://www.tsunago.net/" target="_blank">http://www.tsunago.net/</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Responsive Front End Design based on PSD design for Marketing Purposes.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Front end developer</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">Web Development
-					(HTML, css, css Media Queries, Photoshop).</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_2">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="web_content">
-			<div class="web_imgs_2">
-				<img src="images/millenium1.png"/>
-				<img src="images/millenium2.png"/>
-				<img src="images/millenium3.png"/>
-				<img src="images/millenium4.png"/>
-				<img src="images/millenium5.png"/>
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">MILLENIUM ELECTROINGENIERIA</h1>
-					<a class="link" href="http://www.electroing.com/" target="_blank">www.electroing.com</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Medium size business corporative website.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Web Developer</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">Web Development (HTML+CSS, PHP, SQL) Maintenance.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="element_1">
-		<a class="b-close">
-			<img src="images/exit_1.png">
-			<img class="exit" src="images/exit_2.png">
-		<a/>
-		<div class="electro_content">
-			<div class="electro_imgs_1">
-				<img src="images/solid_01.jpg"/>
-				<img src="images/pcb_01.jpg"/>
-				<img src="images/pcb_02.jpg"/>
-			</div>
-			<div class="mobile_text">
-				<div class="head">
-					<h1 class="name">ROBOTAPP</h1>
-					<a class="link" href="#" target="_blank">On development...</a>
-					<a></a>
-				</div>
-				<div class="description">
-					<h1 class="title">DESCRIPTION</h1>
-					<p class="text">Analogue Electronic design and embedded system system implementation for a robot that interacts with a mobile application.</p>
-					<h1 class="title">POSITION</h1>
-					<p class="text">Electronic designer, programmer.<br/>Co-Founder</p>
-					<h1 class="title">WORK</h1>
-					<p class="text">Analogue design of the control and electronic systems.<br/>Implementation of the wireless communication.<br/>Programming of micro-controllers.<br/>PCB's circuit boards design.</p>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div id="confirm">
-		<div  id="round_b">
-			<img id="stamp_b" src="images/h.png"/>
-			<p >Sorry, this service is not active at the moment, please send me an email to harolhiguera2005@gmail.com</p>
-		</div>
-		<div id="myDiv">
-			<h2>  </h2>
-		</div>
-	</div>
 
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
-	<script src="js/script.js"></script>
+<div class="app-green">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 >Beepnow app</h2>
+        <p class="lead">A mobile application that connects “service seekers” and “service providers” together, allowing people to earn income on a freelance basis.</p>
+        <h3>Role</h3>
+        <p class="lead">IOS Developer. Designer (Illustrator, Photoshop)</p>
+        <h3>Languages</h3>
+        <p class="lead">Swift</p>
+        <h3>Country of releasing</h3>
+        <p class="lead">Japan</p>
+        <h3>Features</h3>
+        <p class="lead">User location, Consumes restful api, Push notifications, login with Facebook and Line SDKs, mobile number verification, chat implementation using Firebase-firestore DB. Escrow business model implementation.</p>
+      </div>
+      <div class="col-sm-6 left-beepnow">
+        <img src="img/app_beepnow.png">
+        <div class="apple-store-btn-container">
+          <a class="btn btn-lg btn-primary apple-store-btn" href="https://itunes.apple.com/us/app/beepnow/id1374958418?ls=1&mt=8">
+          <i class="glyphicon glyphicon-phone pull-left"></i>
+          <div class="apple-store-btn-text">
+            <small>Available on the</small>
+            <br>
+            <strong>App Store</strong>
+          </div>
+        </a>
+        </div>
+        <div class="btn-link-black-container">
+          <a class="btn btn-dark btn-link-black" href="https://beepnow.io/">Go to Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="tools-container text-center">
+        <img src="img/tools-beepnow.png">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="app-white">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-6">
+        <h2 >Beepnow backend services</h2>
+        <p class="lead">Java/JEE application service for beepnow app</p>
+        <h3>Role</h3>
+        <p class="lead">Application architect, backend developer</p>
+        <h3>Languages</h3>
+        <p class="lead">Java, SQL</p>
+        <h3>Features</h3>
+        <p class="lead">Spring boot based application, MVC design pattern, Oauth2, Postgres DB, Strong integration with Stripe API for marketplace kind of business logic, Firebase integration for authentication and storage purposes, Usage of Sengrid services, AWS S3 storage. Spring Restdocs Asciidoctor for documentation purposes.</p>
+      </div>
+      <div class="col-sm-6 right-beepnow-server">
+        <img src="img/app_beepnow_server.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="app-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 >NOQ app</h2>
+        <p class="lead"><b>"Never Queue At A Festival Again".</b> This app allows people who attend festivals to order their favourite food and drinks from stalls nearby. It communicates with a remote server and includes content management system and mobile application for IOS and Android devices.</p>
+        <h3>Role</h3>
+        <p class="lead">Android developer</p>
+        <h3>Languages</h3>
+        <p class="lead">Java for Android</p>
+        <h3>Country of releasing</h3>
+        <p class="lead">Australia</p>
+        <h3>Features</h3>
+        <p class="lead">User geographic location, consumes Restful based API service, push notifications, Braintree integration for payment purposes, beautiful design.</p>
+      </div>
+      <div class="col-sm-6 left-noq">
+        <img src="img/app_noq.png">
+        <div class="google-play-btn-container">
+          <a class="btn btn-lg btn-black big-btn android-btn" href="https://play.google.com/store/apps/details?id=zone.noq.android">
+          <img class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png">
+          <div class="btn-text">
+            <small>Available on</small>
+            <br>
+            <strong>Google Play</strong>
+          </div>
+          </a>
+        </div>
+        <div class="apple-store-btn-container">
+          <a class="btn btn-lg btn-primary apple-store-btn" href="https://itunes.apple.com/us/app/noq/id1208326343?ls=1&mt=8">
+          <i class="glyphicon glyphicon-phone pull-left"></i>
+          <div class="apple-store-btn-text">
+            <small>Available on the</small>
+            <br>
+            <strong>App Store</strong>
+          </div>
+          </a>
+        </div>
+        <div class="btn-link-black-container">
+          <a class="btn btn-success btn-link-green" href="https://noq.zone/">Go to Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="tools-container text-center">
+        <img src="img/tools-noq.png">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="app-green">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 >Pug Chalk</h2>
+        <p class="lead">An application made for pug's lovers who want to share customized pictures of their pugs by adding, and customizing stickers from collections which can be free or paid.</p>
+        <h3>Role</h3>
+        <p class="lead">IOS Developer.</p>
+        <h3>Languages</h3>
+        <p class="lead">Swift</p>
+        <h3>Country of releasing</h3>
+        <p class="lead">Australia</p>
+        <h3>Features</h3>
+        <p class="lead">Custom UIViews with gesture recognizers. Core Image framework, Amazon Simple storage service ASW S3, In-app purchases.</p>
+      </div>
+      <div class="col-sm-6 left-beepnow">
+        <img src="img/app-pug-chalk.png">
+        <div class="apple-store-btn-container">
+          <a class="btn btn-lg btn-primary apple-store-btn" href="https://itunes.apple.com/us/app/pug-chalk-sticker-photo-editor/id1234105875?mt=8">
+          <i class="glyphicon glyphicon-phone pull-left"></i>
+          <div class="apple-store-btn-text">
+            <small>Available on the</small>
+            <br>
+            <strong>App Store</strong>
+          </div>
+        </a>
+        </div>
+        <div class="btn-link-black-container">
+          <a class="btn btn-dark btn-link-black" href="https://www.instagram.com/pug_chalk/">Go to instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="tools-container text-center">
+        <img src="img/tools-pug-chalk.png">
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="app-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 >Blink Bar and Nightlife</h2>
+        <p class="lead">Mobile application that allows finding deals and discounts on bars and venues nearby. Also, allows people to check in venues so people could know the attendance and where is the fun taken place. The entire system consists on server application, content management system and mobile applications for Android and IOS platforms.</p>
+        <h3>Role</h3>
+        <p class="lead">Android developer</p>
+        <h3>Languages</h3>
+        <p class="lead">Java for Android</p>
+        <h3>Country of releasing</h3>
+        <p class="lead">New Zealand</p>
+        <h3>Features</h3>
+        <p class="lead">User location, Consumes Restful API, Image gallery, Push notifications using GCM, Facebook SDK.</p>
+      </div>
+      <div class="col-sm-6 left-noq">
+        <img src="img/app_blink.png">
+        <div class="google-play-btn-container">
+          <a class="btn btn-lg btn-black big-btn android-btn" href="https://play.google.com/store/search?q=Blink%20entertainment&c=apps">
+          <img class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png">
+          <div class="btn-text">
+            <small>Available on</small>
+            <br>
+            <strong>Google Play</strong>
+          </div>
+          </a>
+        </div>
+        <div class="apple-store-btn-container">
+          <a class="btn btn-lg btn-primary apple-store-btn" href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore">
+          <i class="glyphicon glyphicon-phone pull-left"></i>
+          <div class="apple-store-btn-text">
+            <small>Available on the</small>
+            <br>
+            <strong>App Store</strong>
+          </div>
+          </a>
+        </div>
+        <div class="btn-link-black-container">
+          <a class="btn btn-success btn-link-green" href="https://appadvice.com/app/blink-bar-and-nightlife-app/1074584734">Go to Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="tools-container text-center">
+        <img src="img/tools-blink.png">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="app-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 >Ifishcomps</h2>
+        <p class="lead">Mobile application to publish and discover galleries, catches and information about fishing events and competitions.</p>
+        <h3>Role</h3>
+        <p class="lead">Android developer</p>
+        <h3>Languages</h3>
+        <p class="lead">Java for Android</p>
+        <h3>Country of releasing</h3>
+        <p class="lead">Australia</p>
+        <h3>Features</h3>
+        <p class="lead">Interaction with remote server, Image and video galleries, PayPal payment integration, App featured for users and administrator..</p>
+      </div>
+      <div class="col-sm-6 left-noq">
+        <img src="img/app_ifish_comps.png">
+        <div class="google-play-btn-container">
+          <a class="btn btn-lg btn-black big-btn android-btn" href="https://play.google.com/store/apps/details?id=au.com.ifishcopms.android&hl=en">
+          <img class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png">
+          <div class="btn-text">
+            <small>Available on</small>
+            <br>
+            <strong>Google Play</strong>
+          </div>
+          </a>
+        </div>
+        <div class="apple-store-btn-container">
+          <a class="btn btn-lg btn-primary apple-store-btn" href="https://itunes.apple.com/ph/app/ifishcomps-find-all-the-best-fishing-comps/id975369839?mt=8">
+          <i class="glyphicon glyphicon-phone pull-left"></i>
+          <div class="apple-store-btn-text">
+            <small>Available on the</small>
+            <br>
+            <strong>App Store</strong>
+          </div>
+          </a>
+        </div>
+        <div class="btn-link-black-container">
+          <a class="btn btn-success btn-link-green" href="http://www.ifishcomps.com/">Go to Website</a>
+        </div>
+      </div>
+    </div>
+    <div class="tools-container text-center">
+        <img src="img/tools-ifish-comps.png">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="title-default">
+  <br>
+  <h2>EXPERIENCE</h2>
+  <br>
+</div>
+<div class="subtitle-default">
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>“A group becomes a team when each member is sure enough of himself and his contribution to praise the skills of others.” -Norman Shidle</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="job-container" >
+          <h3>Beepnow Japan</h3>
+          <hr>
+          <h4>Osaka, Japan</h4>
+          <a href="https://beepnow.io" target="_blank">https://beepnow.io</a>
+          <h4>Apr 2017 - Present</h4>
+          <h4>Responsabilities:</h4>
+          <p>Design of total mobile application and back end services according to requirements. • Development of back end services. • Development of IOS mobile application. • Testing. • Deployment of back end application in Amazon web services. • Deployment of IOS application to apple store. • Creation of Restful API documentation for mobile applications and Admin Portal. • Work in cooperation with Malaysian company in charge of creating crypto wallet service for payments. • Travel abroad in order to attend to events related to the business.</p>
+          <h4>Acomplishments:</h4>
+          <p>Dramatically increased experience in architecture design of complex mobile applications solutions and development with Spring Boot framework.</p>
+          <p>In cooperation with the Malaysian company BTM, we achieved the design of a solution for payments and transactions for the business model involving a crypto currency.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="job-container" >
+          <h3>Launchpad D Pty Ltd</h3>
+          <hr>
+          <h4>Sydney, Australia</h4>
+          <a href="https://launchpadd.com.au/" target="_blank">https://launchpadd.com.au/</a>
+          <h4>Oct 2015 - Apr 2017</h4>
+          <h4>Responsabilities:</h4>
+          <p>Responsible of developing mobile applications totally or in cooperation with other developers. • Developer for Android and IOS platforms. • Agile development, daily scrum. • Development under deadline and estimation • Testing. • Occasionally cooperate with Spring boot back end application development.
+        </p>
+          <h4>Acomplishments:</h4>
+          <p>Acquired lots expertise and knowledge on mobile development in general and best practices.</p>
+          <p>Increased development speed mainly to develop in Android Java and Swift.</p>
+          <p>Become the best Android developer in the team, for better architecture solutions and better performance.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="job-container" >
+          <h3>Asahi Vision inc.</h3>
+          <hr>
+          <h4>Nagoya, Japan</h4>
+          <a href="http://www.asahi-vision.com/" target="_blank">http://www.asahi-vision.com/</a>
+          <h4>Apr 2015 - Oct 2015</h4>
+          <h4>Responsabilities:</h4>
+          <p>•  Control design of Auto alignment mechanism of ophthalmic equipment, • Development of algorithms. • Carry on simulations in Matlab. • Drawing of control flows of multiple mechanisms.
+        </p>
+          <h4>Acomplishments:</h4>
+          <p>I had the first experience working in a Japanese culture atmosphere.</p>
+          <p>Acquired lots of experience using DRBFM, Design Review Based on Failure Mode as a development management system.</p>
+          <p>Learn a lot about machines development and detection of failures.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<br>
+<div class="title-default">
+  <br>
+  <h2>SKILLS</h2>
+  <br>
+</div>
+
+
+
+<div class="skills-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="skill-image-container  text-center">
+          <img src="img/skill-android-un.jpg">
+        </div>
+        <h3 >Android</h3>
+        <p>Android is the first platform I started developing. I have enough knowledge to work in medium and large applications, I enjoy creating beautiful interfaces and algorithms to put ideas into reality. Develop for the large variety of devices specs and for the newest Android devices is a challenge that I always happy to take.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="skill-image-container text-center">
+          <img src="img/skill-ios-un.jpg">
+        </div>
+        <h3>IOS</h3>
+        <p>I have worked in two medium projects and one big project, only one medium project in cooperation with a team.  I could say I am an expert in IOS development as I am updated with the latest tools and libraries available to build fantastic apps.  Putting into reality a good app design for IOS devices is for me a pleasure and no problem at all.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="skill-image-container text-center">
+          <img src="img/skill-java-un.jpg">
+        </div>
+        <h3>Java</h3>
+        <p>Java was the first language I learnt that would turn my passion to mobile development.  Now, being involved in this Industry I had the privilege to get involved in enterprise sort of application to build back-end services. I have a proficient level in java application with Spring Boot, JPA and Hibernate. I can integrate any other third party, assign security configurations, work with relational and non-relational databases, create APIs for mobile clients, document APIS, run Unit Tests, design the entire architecture for an application and implement a business model in it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="skills-more-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>For more information about my skills check out my <a href="files\CV_2018_en.pdf">resume</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<footer>
+  <div class="container  text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact me</h3>
+        <br>
+        <h4>harolhiguera2005@gmail.com</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="https://www.linkedin.com/in/harol-higuera/" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/harol_higuera" class="fa fa-twitter"></a>
+        <a href="https://github.com/harolhiguera" class="fa fa-github"></a>
+      </div>
+      <div class="col-sm-4">
+        <br>
+        <a href="files\CV_2018_en.pdf" class="btn btn-lg">Download my Resume</a>
+        <!-- <a href="#" class="btn btn-lg">履歴書をダウンロードする</a> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<!--- iOS Landing Page Fix
+<section>
+	<div class="landing-text">
+		<h1>BOOTSTRAP</h1>
+		<h3>Learn the basic building blocks.</h3>
+		<a href="#" class="btn btn-default btn-lg">Get Started</a>
+	</div>
+	<div class="home-wrap">
+        <div id="home">
+		</div>
+    </div>
+</section>
+-->
+
+<!--- iOS Fixed Image Fix
+<figure>
+	<div class="fixed-wrap">
+        <div id="fixed">
+		</div>
+    </div>
+</figure>
+-->
 
 </body>
-	
-
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

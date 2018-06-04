@@ -1,0 +1,562 @@
+$c_primary: #23415C;
+$c_white: #FFFFFF;
+$c_gray_clear: #EEEEEE;
+$c_gray_dark: #C4C4C4;
+
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+/*:::::::::::::::::::: NAVIGATION BAR ::::::::::::::::::::::::::*/
+// .navbar {
+// 	background-color: $c_primary;
+// 	padding: 1% 0;
+// 	font-size: 1.2em;
+// 	color: $c_white;
+// 	a, a:active {
+// 		letter-spacing:2px;
+// 	}
+
+// }
+
+
+
+/*:::::::::::::::::::: LANDING VIEW ::::::::::::::::::::::::::*/
+
+#home {
+	background: url(../img/landing-image.jpg) no-repeat center center fixed;
+	display: table;;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing:2px;
+	color: #FFF;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	letter-spacing:1px;
+	color: #FFF;
+}
+.btn-portafolio-link {
+	margin-top: 20px;
+	letter-spacing:2px;
+}
+ 
+/*:::::::::::::::::::: TITLE ::::::::::::::::::::::::::*/
+.title-default {
+	background-color: $c_primary;
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+.title-default h2 {
+	color: #FFF;
+	left:50%;
+  	top:50%;
+	margin:0;
+	position: absolute;
+  	transform:translate(-50%, -50%);
+	font-weight: lighter;
+	letter-spacing: 7px;
+	font-size: 200%;
+}
+
+/*:::::::::::::::::::: SUB-TITLE ::::::::::::::::::::::::::*/
+.subtitle-default {
+	background-color: $c_primary;
+	width: 100%;
+	height: 140px;
+	// text-align: center;
+	// display: table-cell;
+	// vertical-align: middle;
+}
+.subtitle-default p {
+	color: #DDDEDE;
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	font-size: 130%;
+	font-style: oblique;
+	margin: 0px 50px 0px 50px;
+}
+
+
+
+
+
+
+
+/*:::::::::::::::::::: PORTAFOLIO ITEM GREEN ::::::::::::::::::::::::::*/
+
+.app-green {
+	padding: 20px 0;
+	background-color: #5AC198;
+}
+.app-green img {
+	width: 100%; 
+}
+.app-green h3 {
+	color: $c_primary;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 130%;
+}
+.app-green p {
+	letter-spacing: 1px;
+	font-size: 130%;
+}
+/* :::::: Left panel of beepnow*/
+.left-beepnow {
+	margin-top: 30px;
+}
+
+/*:::::::::::::::::::: PORTAFOLIO ITEM WHITE ::::::::::::::::::::::::::*/
+
+.app-white {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #FFF;
+}
+.app-white img {
+	width: 100%; 
+}
+.app-white h3 {
+	color: $c_primary;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 130%;
+}
+.app-white p {
+	letter-spacing: 1px;
+	font-size: 130%;
+}
+/* :::::: Left panel of beepnow*/
+.right-beepnow-server {
+	margin-top: 10px;
+}
+
+/*:::::::::::::::::::: PORTAFOLIO ITEM GREY ::::::::::::::::::::::::::*/
+
+.app-grey {
+	background: url(../img/noq_festival.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.app-grey {
+	padding: 20px 0;
+}
+.app-grey img {
+	width: 100%; 
+}
+
+.app-grey h2, .app-grey h3{
+	color: #9BB1BF;
+}
+.app-grey h3 {
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 130%;
+}
+.app-grey p {
+	letter-spacing: 1px;
+	color: #D1D1D1;
+	font-size: 130%;
+}
+/* :::::: Left panel of beepnow*/
+.left-noq {
+	margin-top: 30px;
+}
+
+/*:::::::::::::::::::: PORTAFOLIO ITEM BLUE ::::::::::::::::::::::::::*/
+
+.app-blue {
+	background: url(../img/ifishcomps_sea.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.app-blue {
+	padding: 20px 0;
+}
+.app-blue img {
+	width: 100%; 
+}
+
+.app-blue h2, .app-blue h3{
+	color: #D3EFFD;
+}
+.app-blue h3 {
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 130%;
+}
+.app-blue p {
+	letter-spacing: 1px;
+	color: #CCE3EF;
+	font-size: 130%;
+}
+
+
+
+
+
+/*:::::::::::::::::::: Tools container ::::::::::::::::::::::::::*/
+
+.tools-container {
+	margin-top: 50px;
+	height: 50px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.tools-container img {
+	height: 100%;
+	width: auto;
+}
+
+/*:::::::::::::::::::: APPLE STORE BTN ::::::::::::::::::::::::::*/
+
+.apple-store-btn-container {
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.apple-store-btn{
+	width: 215px;
+}
+
+.apple-store-btn i{
+	font-size: 45px;
+}
+.apple-store-btn strong{
+	font-size: 20px;
+	text-shadow: 1px 2px 0px #34659B;
+	color: #fff;
+	line-height: 24px;
+}
+.apple-store-btn .apple-store-btn-text{
+	margin-top:0px;
+}
+
+
+
+/*:::::::::::::::::::: GOOGLE PLAY BTN ::::::::::::::::::::::::::*/
+.google-play-btn-container {
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.android-btn img {
+	width: 60px;
+}
+.android-btn{
+	width: 215px;
+	padding: 13px 17px 13px 0px;
+	background-color: #000;
+	border-color: #000;
+}
+.android-btn:hover{
+	background-color: #272727;
+}
+
+.android-btn small {
+	color: #FFF;
+}
+
+.android-btn .btn-text{
+	margin-top: 0px;
+}
+
+.android-btn strong{
+	font-size: 20px;
+	text-shadow: none;
+	color: #fff;
+	line-height: 24px;
+}
+
+
+
+/*:::::::::::::::::::: BTN LINK BLACK ::::::::::::::::::::::::::*/
+
+.btn-link-black-container{
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-link-black {
+	width: 215px;
+	background-color:#000;
+	color: #FFF;
+}
+.btn-link-green {
+	width: 215px;
+	background-color:#4AA480;
+	color: #FFF;
+}
+.btn-link-green:hover {
+	background-color:#54BA91;
+	color: #FFF;
+}
+
+
+
+/*:::::::::::::::::::: JOBS ::::::::::::::::::::::::::*/
+
+
+.job-container {
+	background-color: #F3F5F6;
+	padding: 20px;
+	margin: 50px 30px 20px 30px;
+	color: $c_primary;
+	letter-spacing: 1px;
+    border-color: $c_primary;
+
+	hr {
+		display: block;
+	    border-style: inset;
+	    border-width: 1px;
+	}
+
+	a, h4 {
+		font-size: 125%;
+		font-weight: normal;
+	}
+
+	p {
+		margin: 0px 0px 0px 30px;
+		font-size: 120%;
+		color: #000;
+		font-weight: lighter;
+
+	}
+	
+}
+
+/*:::::::::::::::::::: SKILLS ::::::::::::::::::::::::::*/
+
+.skills-container {
+	margin-top: 50px;
+	img {
+		width: 70%;
+	}
+	h3 {
+		color: $c_primary;
+	}
+}
+
+#skills-more-info {
+	margin: 50px 0px 50px 0px;
+	width: 100%;
+	p {
+		text-align: center;
+		font-weight: normal;
+		letter-spacing: 3px;
+		font-size: 100%;
+		font-style: oblique;
+	}
+}
+
+
+
+
+
+/*:::::::::::::::::::: FOOTER ::::::::::::::::::::::::::*/
+
+footer {
+	width: 100%;
+	background-color: $c_primary;
+	padding: 5% 5% 5% 5%;
+	color: #5AC198;
+
+	h3, h4 {
+		font-weight: lighter;
+		letter-spacing: 3px;
+		
+	}
+
+	h4 {
+		letter-spacing: 2px;
+	}
+	.btn {
+		margin-top: 15px;
+       	width: 90%;
+		background: rgba(0, 0, 0, 0.0)  no-repeat scroll 16px 16px; 
+    	color: #5AC198;
+		letter-spacing:1px;
+        // border: 1px solid #5AC198;
+		font-weight: lighter;
+		
+	}
+	.btn:hover {
+		color: #D5D5D5;
+		// border: 1px solid #D5D5D5;
+	}
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #5AC198;
+}
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+
+/*:::::::::::::::::::: MEDIA QUERIES FOR RESIZING ::::::::::::::::::::::::::*/
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100%;
+	}
+	.title-default h2 {
+		letter-spacing: 3px;
+		font-size: 150%;
+	}
+	.left-beepnow {
+		margin-top: 20px;
+	}
+	.right-beepnow-server {
+		margin-top: 20px;
+	}
+	.left-noq {
+		margin-top: 20px;
+	}
+	.subtitle-default p {
+		margin: 0px 0px 0px 0px;
+	}
+	.job-container {
+		padding: 10px;
+		margin: 10px 10px 10px 10px;
+		p {
+			margin: 0px 0px 0px 30px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- iOS Landing Page Fix
+section {
+ 	position: relative; 
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+#home {
+	background-image: url('../img/mountains.jpeg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+--*/
+
+/*--- iOS Fixed Image Fix
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#fixed {
+	background-image: url('../img/background.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+--*/
+
