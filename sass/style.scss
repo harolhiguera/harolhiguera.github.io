@@ -94,6 +94,50 @@ html, body{
 
 
 
+/*:::::::::::::::::::: PORTAFOLIO ITEM BROWN :::::::::::::::::::::::::::*/
+
+.app-brown {
+	background: url(../img/huskee_background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.app-brown {
+	padding: 20px 0;
+}
+.app-brown img {
+	width: 100%; 
+}
+
+.app-brown h2, .app-brown h3{
+	color: #F9FDFF;
+}
+.app-brown h3 {
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 130%;
+}
+.app-brown p {
+	letter-spacing: 1px;
+	color: #EBEBEB;
+	font-size: 130%;
+}
+
+.btn-link-brown {
+	width: 215px;
+	background-color:$c_white;
+	color: #7A8181;
+	border-color:$c_white;
+}
+
+/* :::::: Left panel of huskee*/
+.left-huskee {
+	margin-top: 30px;
+}
+
 
 
 

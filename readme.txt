@@ -6,7 +6,7 @@ Steps to modify css files.
 4. Go to the folder where the files are
 5. rin the command
 
-sass --watch sass/style.scss:styleshts/style.css
+sass --watch sass/style.scss:stylesheets/style.css
 
 
 6. To stop it press Control-C

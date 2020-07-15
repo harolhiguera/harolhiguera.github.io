@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+}
 
 /*:::::::::::::::::::: NAVIGATION BAR ::::::::::::::::::::::::::*/
 /*:::::::::::::::::::: LANDING VIEW ::::::::::::::::::::::::::*/
@@ -10,31 +11,36 @@ html, body {
   height: 100%;
   position: relative;
   width: 100%;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .landing-text {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   letter-spacing: 2px;
-  color: #FFF; }
+  color: #FFF;
+}
 
 .landing-text h1 {
   font-size: 500%;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #FFF; }
+  color: #FFF;
+}
 
 .btn-portafolio-link {
   margin-top: 20px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+}
 
 /*:::::::::::::::::::: TITLE ::::::::::::::::::::::::::*/
 .title-default {
   background-color: #23415C;
   width: 100%;
   height: 150px;
-  position: relative; }
+  position: relative;
+}
 
 .title-default h2 {
   color: #FFF;
@@ -45,13 +51,15 @@ html, body {
   transform: translate(-50%, -50%);
   font-weight: lighter;
   letter-spacing: 7px;
-  font-size: 200%; }
+  font-size: 200%;
+}
 
 /*:::::::::::::::::::: SUB-TITLE ::::::::::::::::::::::::::*/
 .subtitle-default {
   background-color: #23415C;
   width: 100%;
-  height: 140px; }
+  height: 140px;
+}
 
 .subtitle-default p {
   color: #DDDEDE;
@@ -60,52 +68,109 @@ html, body {
   letter-spacing: 4px;
   font-size: 130%;
   font-style: oblique;
-  margin: 0px 50px 0px 50px; }
+  margin: 0px 50px 0px 50px;
+}
+
+/*:::::::::::::::::::: PORTAFOLIO ITEM BROWN :::::::::::::::::::::::::::*/
+.app-brown {
+  background: url(../img/huskee_background.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.app-brown {
+  padding: 20px 0;
+}
+
+.app-brown img {
+  width: 100%;
+}
+
+.app-brown h2, .app-brown h3 {
+  color: #F9FDFF;
+}
+
+.app-brown h3 {
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 130%;
+}
+
+.app-brown p {
+  letter-spacing: 1px;
+  color: #EBEBEB;
+  font-size: 130%;
+}
+
+.btn-link-brown {
+  width: 215px;
+  background-color: #FFFFFF;
+  color: #7A8181;
+  border-color: #FFFFFF;
+}
+
+/* :::::: Left panel of huskee*/
+.left-huskee {
+  margin-top: 30px;
+}
 
 /*:::::::::::::::::::: PORTAFOLIO ITEM GREEN ::::::::::::::::::::::::::*/
 .app-green {
   padding: 20px 0;
-  background-color: #5AC198; }
+  background-color: #5AC198;
+}
 
 .app-green img {
-  width: 100%; }
+  width: 100%;
+}
 
 .app-green h3 {
   color: #23415C;
   letter-spacing: 1px;
   font-weight: normal;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 .app-green p {
   letter-spacing: 1px;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 /* :::::: Left panel of beepnow*/
 .left-beepnow {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 /*:::::::::::::::::::: PORTAFOLIO ITEM WHITE ::::::::::::::::::::::::::*/
 .app-white {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #FFF; }
+  background-color: #FFF;
+}
 
 .app-white img {
-  width: 100%; }
+  width: 100%;
+}
 
 .app-white h3 {
   color: #23415C;
   letter-spacing: 1px;
   font-weight: normal;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 .app-white p {
   letter-spacing: 1px;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 /* :::::: Left panel of beepnow*/
 .right-beepnow-server {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 /*:::::::::::::::::::: PORTAFOLIO ITEM GREY ::::::::::::::::::::::::::*/
 .app-grey {
@@ -114,30 +179,37 @@ html, body {
   height: 60%;
   position: relative;
   width: 100%;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .app-grey {
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 .app-grey img {
-  width: 100%; }
+  width: 100%;
+}
 
 .app-grey h2, .app-grey h3 {
-  color: #9BB1BF; }
+  color: #9BB1BF;
+}
 
 .app-grey h3 {
   letter-spacing: 1px;
   font-weight: normal;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 .app-grey p {
   letter-spacing: 1px;
   color: #D1D1D1;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 /* :::::: Left panel of beepnow*/
 .left-noq {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 /*:::::::::::::::::::: PORTAFOLIO ITEM BLUE ::::::::::::::::::::::::::*/
 .app-blue {
@@ -146,26 +218,32 @@ html, body {
   height: 60%;
   position: relative;
   width: 100%;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .app-blue {
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 .app-blue img {
-  width: 100%; }
+  width: 100%;
+}
 
 .app-blue h2, .app-blue h3 {
-  color: #D3EFFD; }
+  color: #D3EFFD;
+}
 
 .app-blue h3 {
   letter-spacing: 1px;
   font-weight: normal;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 .app-blue p {
   letter-spacing: 1px;
   color: #CCE3EF;
-  font-size: 130%; }
+  font-size: 130%;
+}
 
 /*:::::::::::::::::::: Tools container ::::::::::::::::::::::::::*/
 .tools-container {
@@ -173,11 +251,13 @@ html, body {
   height: 50px;
   width: 100%;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .tools-container img {
   height: 100%;
-  width: auto; }
+  width: auto;
+}
 
 /*:::::::::::::::::::: APPLE STORE BTN ::::::::::::::::::::::::::*/
 .apple-store-btn-container {
@@ -185,22 +265,27 @@ html, body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .apple-store-btn {
-  width: 215px; }
+  width: 215px;
+}
 
 .apple-store-btn i {
-  font-size: 45px; }
+  font-size: 45px;
+}
 
 .apple-store-btn strong {
   font-size: 20px;
   text-shadow: 1px 2px 0px #34659B;
   color: #fff;
-  line-height: 24px; }
+  line-height: 24px;
+}
 
 .apple-store-btn .apple-store-btn-text {
-  margin-top: 0px; }
+  margin-top: 0px;
+}
 
 /*:::::::::::::::::::: GOOGLE PLAY BTN ::::::::::::::::::::::::::*/
 .google-play-btn-container {
@@ -208,31 +293,38 @@ html, body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .android-btn img {
-  width: 60px; }
+  width: 60px;
+}
 
 .android-btn {
   width: 215px;
   padding: 13px 17px 13px 0px;
   background-color: #000;
-  border-color: #000; }
+  border-color: #000;
+}
 
 .android-btn:hover {
-  background-color: #272727; }
+  background-color: #272727;
+}
 
 .android-btn small {
-  color: #FFF; }
+  color: #FFF;
+}
 
 .android-btn .btn-text {
-  margin-top: 0px; }
+  margin-top: 0px;
+}
 
 .android-btn strong {
   font-size: 20px;
   text-shadow: none;
   color: #fff;
-  line-height: 24px; }
+  line-height: 24px;
+}
 
 /*:::::::::::::::::::: BTN LINK BLACK ::::::::::::::::::::::::::*/
 .btn-link-black-container {
@@ -240,21 +332,25 @@ html, body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .btn-link-black {
   width: 215px;
   background-color: #000;
-  color: #FFF; }
+  color: #FFF;
+}
 
 .btn-link-green {
   width: 215px;
   background-color: #4AA480;
-  color: #FFF; }
+  color: #FFF;
+}
 
 .btn-link-green:hover {
   background-color: #54BA91;
-  color: #FFF; }
+  color: #FFF;
+}
 
 /*:::::::::::::::::::: JOBS ::::::::::::::::::::::::::*/
 .job-container {
@@ -263,105 +359,133 @@ html, body {
   margin: 50px 30px 20px 30px;
   color: #23415C;
   letter-spacing: 1px;
-  border-color: #23415C; }
-  .job-container hr {
-    display: block;
-    border-style: inset;
-    border-width: 1px; }
-  .job-container a, .job-container h4 {
-    font-size: 125%;
-    font-weight: normal; }
-  .job-container p {
-    margin: 0px 0px 0px 30px;
-    font-size: 120%;
-    color: #000;
-    font-weight: lighter; }
+  border-color: #23415C;
+}
+.job-container hr {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+}
+.job-container a, .job-container h4 {
+  font-size: 125%;
+  font-weight: normal;
+}
+.job-container p {
+  margin: 0px 0px 0px 30px;
+  font-size: 120%;
+  color: #000;
+  font-weight: lighter;
+}
 
 /*:::::::::::::::::::: SKILLS ::::::::::::::::::::::::::*/
 .skills-container {
-  margin-top: 50px; }
-  .skills-container img {
-    width: 70%; }
-  .skills-container h3 {
-    color: #23415C; }
+  margin-top: 50px;
+}
+.skills-container img {
+  width: 70%;
+}
+.skills-container h3 {
+  color: #23415C;
+}
 
 #skills-more-info {
   margin: 50px 0px 50px 0px;
-  width: 100%; }
-  #skills-more-info p {
-    text-align: center;
-    font-weight: normal;
-    letter-spacing: 3px;
-    font-size: 100%;
-    font-style: oblique; }
+  width: 100%;
+}
+#skills-more-info p {
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 100%;
+  font-style: oblique;
+}
 
 /*:::::::::::::::::::: FOOTER ::::::::::::::::::::::::::*/
 footer {
   width: 100%;
   background-color: #23415C;
   padding: 5% 5% 5% 5%;
-  color: #5AC198; }
-  footer h3, footer h4 {
-    font-weight: lighter;
-    letter-spacing: 3px; }
-  footer h4 {
-    letter-spacing: 2px; }
-  footer .btn {
-    margin-top: 15px;
-    width: 90%;
-    background: rgba(0, 0, 0, 0) no-repeat scroll 16px 16px;
-    color: #5AC198;
-    letter-spacing: 1px;
-    font-weight: lighter; }
-  footer .btn:hover {
-    color: #D5D5D5; }
+  color: #5AC198;
+}
+footer h3, footer h4 {
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+footer h4 {
+  letter-spacing: 2px;
+}
+footer .btn {
+  margin-top: 15px;
+  width: 90%;
+  background: rgba(0, 0, 0, 0) no-repeat scroll 16px 16px;
+  color: #5AC198;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+footer .btn:hover {
+  color: #D5D5D5;
+}
 
 .fa {
   padding: 15px;
   font-size: 25px;
-  color: #5AC198; }
+  color: #5AC198;
+}
 
 .fa:hover {
   color: #D5D5D5;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .icon {
-  max-width: 200px; }
+  max-width: 200px;
+}
 
 /*:::::::::::::::::::: MEDIA QUERIES FOR RESIZING ::::::::::::::::::::::::::*/
 @media (max-width: 768px) {
   .landing-text h1 {
-    font-size: 300%; }
+    font-size: 300%;
+  }
 
   .fa {
     font-size: 20px;
-    padding: 10px; }
+    padding: 10px;
+  }
 
   .icon {
     padding-top: 5%;
-    max-width: 100%; }
+    max-width: 100%;
+  }
 
   .title-default h2 {
     letter-spacing: 3px;
-    font-size: 150%; }
+    font-size: 150%;
+  }
 
   .left-beepnow {
-    margin-top: 20px; }
+    margin-top: 20px;
+  }
 
   .right-beepnow-server {
-    margin-top: 20px; }
+    margin-top: 20px;
+  }
 
   .left-noq {
-    margin-top: 20px; }
+    margin-top: 20px;
+  }
 
   .subtitle-default p {
-    margin: 0px 0px 0px 0px; }
+    margin: 0px 0px 0px 0px;
+  }
 
   .job-container {
     padding: 10px;
-    margin: 10px 10px 10px 10px; }
-    .job-container p {
-      margin: 0px 0px 0px 30px; } }
+    margin: 10px 10px 10px 10px;
+  }
+  .job-container p {
+    margin: 0px 0px 0px 30px;
+  }
+}
 /*--- iOS Landing Page Fix
 section {
  	position: relative; 
