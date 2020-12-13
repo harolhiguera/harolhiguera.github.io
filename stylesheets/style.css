@@ -71,6 +71,47 @@ html, body {
   margin: 0px 50px 0px 50px;
 }
 
+/*:::::::::::::::::::: PORTAFOLIO ITEM RHYTHMEAL :::::::::::::::::::::::::::*/
+.app-rhythmeal {
+  background: url(../img/rhythmeal_drums.png) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.app-rhythmeal {
+  padding: 20px 0;
+}
+
+.app-rhythmeal img {
+  width: 100%;
+}
+
+.app-rhythmeal h2, .app-rhythmeal h3 {
+  color: #F9FDFF;
+}
+
+.app-rhythmeal h3 {
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 130%;
+}
+
+.app-rhythmeal p {
+  letter-spacing: 1px;
+  color: #EBEBEB;
+  font-size: 130%;
+}
+
+.btn-link-rhythmeal {
+  width: 215px;
+  background-color: #FFFFFF;
+  color: #7A8181;
+  border-color: #FFFFFF;
+}
+
 /*:::::::::::::::::::: PORTAFOLIO ITEM BROWN :::::::::::::::::::::::::::*/
 .app-brown {
   background: url(../img/huskee_background.jpg) no-repeat center center fixed;
