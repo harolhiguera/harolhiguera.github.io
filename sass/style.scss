@@ -177,6 +177,43 @@ html, body{
 
 
 
+/*:::::::::::::::::::: PORTAFOLIO ITEM INESUS ::::::::::::::::::::::::::*/
+
+.app-inesus {
+	background: url(../img/inesus_background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.app-inesus {
+	padding: 20px 0;
+}
+.app-inesus img {
+	width: 100%; 
+}
+
+.app-inesus h2, .app-inesus h3{
+	color: #ffffff;
+}
+.app-inesus h3 {
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 130%;
+}
+.app-inesus p {
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-size: 130%;
+}
+/* :::::: Left panel of beepnow*/
+.left-noq {
+	margin-top: 30px;
+}
+
+
 
 /*:::::::::::::::::::: PORTAFOLIO ITEM GREEN ::::::::::::::::::::::::::*/
 
